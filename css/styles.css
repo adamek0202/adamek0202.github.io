@@ -1,0 +1,23 @@
+.main_container{
+    scale: 1.0;
+    width: 100%;
+    height: 100%;
+}
+
+.text1{
+    font-family: "Arial";
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    scale: 1.0;
+    width: 100%;
+    height: 100%;
+}

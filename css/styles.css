@@ -1,23 +1,59 @@
 .main_container{
-    scale: 1.0;
     width: 100%;
     height: 100%;
 }
 
 .text1{
     font-family: "Arial";
-    font-size: 20px;
+    font-size: 57px;
     color: #000000;
-    text-align: center;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-    scale: 1.0;
+    text-align: left;
     width: 100%;
     height: 100%;
+}
+
+.text404{
+    position: relative;
+    font-family: "Arial";
+    font-size: 57px;
+    color: #ffffff;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    bottom: 140px;
+}
+
+.center_box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.kostka{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    transform: translate(-50%, -50%);
+}
+
+.main_cantainer_404{
+    width: 100%;
+    height: 100%;
+}
+
+.background_image{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('/img/404.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    left: 0px;
+    top: 0px;
+}
+
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
 }

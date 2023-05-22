@@ -6,7 +6,13 @@ function mystery() {
         alert("Chyba");
     }
 
-
+    else if (checkbox1.checked == true && checkbox2.checked == false) {
+        window.location.href = "cs";
+    }
+    
+    else if (checkbox1.checked == false && checkbox2.checked ==true) {
+        window.location.href == "ahojky";
+    }
 
     else { 
         window.location.href = "nazdar";

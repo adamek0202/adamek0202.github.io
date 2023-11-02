@@ -1,0 +1,48 @@
+body {
+    background-color: orange;
+}
+
+h1 {
+    text-align: center;
+}
+
+.imgrow {
+    width: 100px;
+    height: 100px;
+    padding: 0px;
+    margin: 5px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.backlink {
+    display: flex;
+    justify-content: center;
+}
+
+.imgbig {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.toptext {
+    border-top: 2px ridge gray;
+    border-bottom: 2px ridge gray;
+    border-left: 0px;
+    border-right: 0px;
+    padding-top: 10px;
+}
+
+.im1 {
+    border: 2px solid firebrick;
+}
+
+.im2 {
+    border: 2px solid steelblue;
+}
